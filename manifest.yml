@@ -5,7 +5,7 @@ applications:
   instances: 1
   random-route: true
   services:
-    - config-server
+    - redis-server
     - service-registry
     - cloudbus-rabbitmq
     - db-postgres
