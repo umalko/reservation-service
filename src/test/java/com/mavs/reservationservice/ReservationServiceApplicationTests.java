@@ -1,16 +1,18 @@
-//package com.mavs.reservationservice;
-//
-//import org.junit.Test;
-//import org.junit.runner.RunWith;
-//import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.test.context.junit4.SpringRunner;
-//
-//@RunWith(SpringRunner.class)
-//@SpringBootTest
-//public class ReservationServiceApplicationTests {
-//
-//	@Test
-//	public void contextLoads() {
-//	}
-//
-//}
+package com.mavs.reservationservice;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@DataJpaTest
+public class ReservationServiceApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}
